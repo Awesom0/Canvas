@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C7BEC52621A7530700A0CC0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEC52521A7530700A0CC0F /* AppDelegate.swift */; };
-		C7BEC52821A7530700A0CC0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEC52721A7530700A0CC0F /* ViewController.swift */; };
 		C7BEC52B21A7530700A0CC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BEC52921A7530700A0CC0F /* Main.storyboard */; };
 		C7BEC52D21A7530700A0CC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BEC52C21A7530700A0CC0F /* Assets.xcassets */; };
 		C7BEC53021A7530700A0CC0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BEC52E21A7530700A0CC0F /* LaunchScreen.storyboard */; };
 		C7BEC53B21A7530700A0CC0F /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEC53A21A7530700A0CC0F /* CanvasTests.swift */; };
 		C7BEC54621A7530700A0CC0F /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEC54521A7530700A0CC0F /* CanvasUITests.swift */; };
+		C7BEC55421A7549200A0CC0F /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEC55321A7549200A0CC0F /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		C7BEC52221A7530700A0CC0F /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BEC52521A7530700A0CC0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7BEC52721A7530700A0CC0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7BEC52A21A7530700A0CC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7BEC52C21A7530700A0CC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7BEC52F21A7530700A0CC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		C7BEC54121A7530700A0CC0F /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BEC54521A7530700A0CC0F /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		C7BEC54721A7530700A0CC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BEC55321A7549200A0CC0F /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				C7BEC52521A7530700A0CC0F /* AppDelegate.swift */,
-				C7BEC52721A7530700A0CC0F /* ViewController.swift */,
 				C7BEC52921A7530700A0CC0F /* Main.storyboard */,
+				C7BEC55321A7549200A0CC0F /* CanvasViewController.swift */,
 				C7BEC52C21A7530700A0CC0F /* Assets.xcassets */,
 				C7BEC52E21A7530700A0CC0F /* LaunchScreen.storyboard */,
 				C7BEC53121A7530700A0CC0F /* Info.plist */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BEC52821A7530700A0CC0F /* ViewController.swift in Sources */,
+				C7BEC55421A7549200A0CC0F /* CanvasViewController.swift in Sources */,
 				C7BEC52621A7530700A0CC0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHD262P534;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHD262P534;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
